@@ -1,0 +1,152 @@
+// // TOP BAR
+// .prenav {
+//     position: fixed;
+//     left: 10px;
+//     top: 5px;
+//     width: calc(100% - 20px);
+//     height: 40px;
+//     padding: 0 5.5vw;
+//     z-index: 3;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     transition: ease-in-out .5s;
+//     border-radius: 8px;
+//     color: #49647e;
+//     background-color:rgba(255, 255, 255, 0.936);
+//     transition: ease-in-out .5s;
+//     border-radius: 8px 8px 8px 8px;
+//     -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+//     -moz-box-shadow : 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+//     box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+//     .info-prenav-box-item{
+//         padding: 0 10px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         i {
+//             padding-right: 10px;
+//             cursor: pointer;
+//             color: #49647e;
+//         }
+//         a {
+//             text-decoration: none;
+//             color: #49647e;
+//             &:hover{
+//                 color: rgba(255, 166, 0, 0.876);
+//                 transition: ease-in-out .3s;
+//             }
+//         }
+//     }
+
+// }
+
+// // BARRE DE NAVIGATION
+
+// .nav {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     transition: ease-in-out .5s;
+//     border-radius: 8px;
+//     z-index: 3;
+//     position: fixed;
+//     height: 80px;
+//     top: 50px;
+//     left: 10px;
+//     right: 10px;
+//     padding: 0 5.5vw;
+//     width: calc(100% - 20px);
+//     color: #49647e;
+//     background-color:rgba(255, 255, 255, 0.936);
+//     transition: ease-in-out .5s;
+//     border-radius: 8px 8px 8px 8px;
+//     -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+//     -moz-box-shadow : 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+//     box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+//     .n-nav {
+//         width: 65%;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+    
+//         // a:hover{
+//         //     color:#49647eb0;
+//         //     transition: ease-in-out .3s;
+//         // }
+        
+//         span {
+//             text-decoration: none;
+//             position: relative;
+//             display: block;
+//             padding:  8px 0;
+//             margin: 0 10px;
+//             transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+//         }
+//         span::before {
+//             content: '';
+//             display: block;
+//             position: absolute;
+//             bottom: 1px;
+//             left: 0;
+//             height: 1px;
+//             width: 100%;
+//             background-color: #49647e;;
+//             transform-origin: right top;
+//             transform: scale(0, 1);
+//             transition: color 0.1s,transform 0.2s ease-out;
+//         }
+//         span:active::before {
+//             background-color: #49647e;
+//         }
+//         span:hover::before, a:focus::before {
+//             transform-origin: left top;
+//             transform: scale(1, 1);
+//         }
+//     }
+//     .link {
+//         color: #49647e;
+//     }
+//     .join-us {
+//         padding: 10px 20px;
+//         background-color: orange;
+//         border-radius: 8px;
+//         color: white;
+//     }
+//     .n-logo {
+//         img {
+//             height: 60px;
+//         }
+//     }
+
+// }
+// .translateUp {
+//    height: 80px;
+//    width: 80%;
+//    left: 10%;
+//    top: 20px;
+//    padding: 0 50px;
+//    .n-logo {
+//     img {
+//         height: 60px;
+//     }
+// }
+// }
+
+// @media (max-width: 1600px) {
+
+//     .translateUp {
+//         width: 90%;
+//         left:5%;
+//         top: 20px;
+//         padding: 0 50px;
+//      }
+// }
+// .translateUpPreNav {
+//     transform: translateY(-100%);
+//     opacity: 0;
+//     transition: transform 0.5s ease, opacity 0.5s ease;
+// }
+
+
+

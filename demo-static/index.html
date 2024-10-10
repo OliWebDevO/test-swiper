@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="../assets/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/styles.min.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../plugins/dist/effect-slicer.min.css">
+  <link rel="stylesheet" href="../plugins/dist/effect-material.min.css">
+  <!-- <link rel="stylesheet" href="./main.css"> -->
+  <title>Slicer Slider</title>
+</head>
+
+<body>
+  <div id="app2">
+    <!-- Slicer slider -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <!-- slicer image must have "swiper-slicer-image" class, one image per slide -->
+          <img class="swiper-slicer-image" src="../assets/images/01.jpg" alt="">
+          <div class="title">
+            <h1>TITLE</h1>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img class="swiper-slicer-image" src="../assets/images/02.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="swiper-slicer-image" src="../assets/images/03.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="swiper-slicer-image" src="../assets/images/04.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img class="swiper-slicer-image" src="../assets/images/05.jpg" alt="">
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+
+  <div id="app">
+    <div class="demo-nav">
+      <label>
+        <span>slidesPerView:</span>
+        <span class="spv">2</span>
+        <span class="dropdown">
+          <span data-value="1">1</span>
+          <span data-value="2">2</span>
+          <span data-value="3">3</span>
+          <span data-value="4">4</span>
+          <span data-value="5">5</span>
+        </span>
+      </label>
+      <label>
+        <input type="checkbox">
+        <span>centeredSlides</span>
+      </label>
+    </div>
+    <div class="demo-slider">
+      <!-- Material slider -->
+      <div class="swiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <!-- Wrap each slide content with "swiper-material-wrapper" and "swiper-material-content" elements -->
+            <div class="swiper-material-wrapper">
+              <div class="swiper-material-content">
+                <!-- Use data-swiper-material-scale to add scale effect on required elements -->
+                <img class="demo-material-image" data-swiper-material-scale="1.25" src="../assets/images/01.jpg" />
+                <!-- Use swiper-material-animate-opacity class to add opacity animation on required elements -->
+                <a href=""><span class="demo-material-label swiper-material-animate-opacity">Slide 1</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-material-wrapper">
+              <div class="swiper-material-content">
+                <img class="demo-material-image" data-swiper-material-scale="1.25" src="../assets/images/02.jpg" />
+                <span class="demo-material-label swiper-material-animate-opacity">Slide 2</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-material-wrapper">
+              <div class="swiper-material-content">
+                <img class="demo-material-image" data-swiper-material-scale="1.25" src="../assets/images/03.jpg" />
+                <span class="demo-material-label swiper-material-animate-opacity">Slide
+                  3</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-material-wrapper">
+              <div class="swiper-material-content">
+                <img class="demo-material-image" data-swiper-material-scale="1.25" src="../assets/images/04.jpg" />
+                <span class="demo-material-label swiper-material-animate-opacity">Slide 4</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-material-wrapper">
+              <div class="swiper-material-content">
+                <img class="demo-material-image" data-swiper-material-scale="1.25" src="../assets/images/05.jpg" />
+                <span class="demo-material-label swiper-material-animate-opacity">Slide 5</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-material-wrapper">
+              <div class="swiper-material-content">
+                <img class="demo-material-image" data-swiper-material-scale="1.25" src="../assets/images/06.jpg" />
+                <span class="demo-material-label swiper-material-animate-opacity">Slide 6</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-material-wrapper">
+              <div class="swiper-material-content">
+                <img class="demo-material-image" data-swiper-material-scale="1.25" src="../assets/images/07.jpg" />
+                <span class="demo-material-label swiper-material-animate-opacity">Slide 7</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-material-wrapper">
+              <div class="swiper-material-content">
+                <img class="demo-material-image" data-swiper-material-scale="1.25" src="../assets/images/08.jpg" />
+                <span class="demo-material-label swiper-material-animate-opacity">Slide 8</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-material-wrapper">
+              <div class="swiper-material-content">
+                <img class="demo-material-image" data-swiper-material-scale="1.25" src="../assets/images/09.jpg" />
+                <span class="demo-material-label swiper-material-animate-opacity">Slide 9</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-material-wrapper">
+              <div class="swiper-material-content">
+                <img class="demo-material-image" data-swiper-material-scale="1.25" src="../assets/images/10.jpg" />
+                <span class="demo-material-label swiper-material-animate-opacity">Slide 10</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="horaire-box">
+        <div class="horaire-box-item wow animate__fadeInUp" data-wow-delay="0.1s">
+            <h3><i class="fa-solid fa-square-phone"></i>Contact</h3>
+            <p>Téléphone : 02/734 24 53</p>
+            <p>Fax : 02/734 29 27</p>
+            <p>Adresse : Avenue Félix Marchal, 1a
+                1030 Schaerbeek</p>
+        </div>
+        <div class="horaire-box-item wow animate__fadeInUp" data-wow-delay="0.3s">
+            <h3><i class="fa-regular fa-clock"></i>Horaires</h3>
+            <p>Lundi : 8h30 - 19h30</p>
+            <p>Mardi : 8h30 - 19h30</p>
+            <p>Mercredi : 8h30 - 19h30</p>
+            <p>Jeudi : 8h30 - 19h30</p>
+            <p>Vendredi : 8h30 - 19h30</p>
+            <p>Samedi : 9h - 12h</p>
+        </div>
+        <div class="horaire-box-item wow animate__fadeInUp" data-wow-delay="0.5s">
+            <h3><i class="fa-solid fa-user-nurse"></i>Permanences</h3>
+            <p>Consultations sans rendez-vous</p>
+            <p>Lundi : 8h30 - 9h30</p>
+            <p>Mardi : 8h30 - 9h30</p>
+            <p>Mercredi : 8h30 - 9h30</p>
+            <p>Jeudi : 8h30 - 9h30</p>
+            <p>Vendredi : 8h30 - 9h30</p>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="rdv-box">
+        <div class="rdv-box-item rdv-img-box">
+            <div class="fadeleft-box wow animate__slideInRight" data-wow-duration="2s" data-wow-delay="0.5s"></div>
+            <img src="img/doctor.webp" alt="">
+        </div>
+        <div class="rdv-box-item rdv-text-box">
+            <h2 class="wow animate__fadeIn " data-wow-delay="0.3s">Prenez rendez-vous</h2>
+            <p class="wow animate__fadeIn " data-wow-delay="0.5s">Vous pouvez prendre rendez-vous en ligne, par téléphone ou directement à la maison médicale.</p>
+            <div class="contact-box wow animate__fadeIn" data-wow-delay="0.7s">
+                <div class="contact-form">
+                    <form class="contact-form" action="">
+                        <div class="form-info">
+                            <input type="text" placeholder="Votre nom">
+                            <input type="text" placeholder="Votre mail">
+                            <textarea name="message" placeholder="Votre message" id="" cols="30" rows="10"></textarea>
+                            <input class="form-send" type="submit" value="Envoyer"> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.js"></script>
+  <script src="../plugins/dist/effect-slicer.min.js"></script>
+  <script src="../plugins/dist/effect-material.min.js"></script>
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
